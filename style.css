@@ -1,0 +1,79 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0f4e62;
+}
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container button {
+  cursor: pointer;
+  background-color: #0f4e62;
+  height: 130px;
+  width: 130px;
+  font-size: 100px;
+  border: 3px solid white;
+  
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gameOver {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h5{
+  color: white;
+}
+h3{
+  margin-bottom: 5px;
+  color: white;
+}
+.options button,.foot-content button{
+  background-color: #0f4e62;
+  box-shadow: none;
+  border-style: none;
+  border: 1px solid white;
+  font-size: x-large;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin: 10px;
+  padding: 5px 10px;
+}
+.foot-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.score{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.player1,.player2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  color: white;
+}
+
